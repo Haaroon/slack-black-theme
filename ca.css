@@ -1748,7 +1748,11 @@ ts-jumper .p-jumper__help {
     color: var(--timestamp-color);
 }
 
-.p-message_pane__foreword__description {
+.p-message_pane__foreword__description,
+.p-message_pane,
+.c-message__reply_bar,
+.c-message__reply_bar_view_thread,
+.c-message__reply_bar_last_reply {
     color: var(--timestamp-color);
 }
 
