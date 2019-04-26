@@ -20,6 +20,8 @@ limitations under the License.
    --text: #c7cdd8;
    --background: #204055;
    --background-elevated: #204055;
+   --timestamp-color: #d3d3d3;
+
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
@@ -539,7 +541,7 @@ a:hover{
 .channels_list_holder ul li .mpim_name,
 .channels_list_holder ul li>a:link,
 ts-message a.timestamp{
-  color: #aaa !important;
+  color: var(--timestamp-color) !important;
 }
 #channels_scroller.show_which_channel_is_active ul li.active .im_name{
   color: #fff !important;
