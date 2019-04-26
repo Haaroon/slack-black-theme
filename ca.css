@@ -51,10 +51,6 @@ hr {
     border-bottom: 1px solid var(--background-elevated);
 }
 
-.c-timestamp__label {
-  color: var(--timestamp-color);
-}
-
 .popover_mask {
    background-color: rgba(0, 0, 0, 0.3);
 }
@@ -1745,4 +1741,17 @@ ts-jumper .p-jumper__help {
     background-color: var(--background-elevated);
 }.p-app_space__header {
     color: var(--text);
+}
+
+/* broken stuff fixed */
+.member_title {
+    color: var(--timestamp-color);
+}
+
+.p-message_pane__foreword__description {
+    color: var(--timestamp-color);
+}
+
+.c-timestamp__label {
+  color: var(--timestamp-color);
 }
