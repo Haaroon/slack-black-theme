@@ -20,7 +20,7 @@ limitations under the License.
    --text: #c7cdd8;
    --background: #204055;
    --background-elevated: #204055;
-   --timestamp-color: #d3d3d3;
+   --timestamp-color: #9c9c9c;
 
 
    /* These should be less important: */
@@ -49,6 +49,10 @@ body {
 hr {
     border: 0;
     border-bottom: 1px solid var(--background-elevated);
+}
+
+.c-timestamp__label {
+  color: var(--timestamp-color);
 }
 
 .popover_mask {
@@ -118,6 +122,7 @@ ts-jumper input[type="text"],
 #channel_header_info, #channel_topic_text, #channel_topic_text code, #edit_topic_inner:before,
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar)
 {
+  color: #a7a7a7;
   background: var(--background) !important;
   border-color: var(--border-dim);
 }
