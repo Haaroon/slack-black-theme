@@ -31,16 +31,34 @@ document.addEventListener("DOMContentLoaded", function() {
    let webviews = document.querySelectorAll(".TeamView webview");
 
    // Fetch our CSS in parallel ahead of time
-   const cssPath = 'https://raw.githubusercontent.com/Nockiro/slack-black-theme/master/custom.css';
+   const cssPath = 'https://raw.githubusercontent.com/Haaroon/slack-black-theme/master/ca.css';
    let cssPromise = fetch(cssPath).then(response => response.text());
 
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #09F;
-      --text: #CCC;
-      --background: #080808;
-      --background-elevated: #222;
+    --primary: #71a8d6;
+    --text: #c7cdd8;
+    --background: #204055;
+    --background-elevated: #204055;
+   --text-special: #c7cdd8;
+   --timestamp-color: #9c9c9c;
+
+
+   --background-hover: rgba(255, 255, 255, 0.1);
+   --background-light: #AAA;
+   --background-bright: #cccccc;
+
+
+   --border-dim: #666;
+   --border-bright: var(--primary);
+
+   --text-bright: #cccccc;
+   --text-special: var(--primary);
+
+   --scrollbar-background: #000;
+   --scrollbar-border: var(--primary);
+
    } 
 
    a[aria-label^="NAME_OF_CHANNEL_OR_DIRECT_CONVO_TO_STYLE"]
@@ -48,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
         --background: #4d0000  !important;
         --text-transform: uppercase  !important;
         --letter-spacing: 2px !important;
-        --text-shadow: 1px 1px white;
+        --text-shadow: 0px 0px white;
 
     }   `
 
@@ -77,8 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
             })
       });
    });
-});
-```
+});```
 
 Notice that you can edit any of the theme colors using the custom CSS (for
 the already-custom theme.) Also, you can put any CSS URL you want here,
@@ -100,42 +117,9 @@ Here's some example color variations you might like.
 --background: #080808;
 --background-elevated: #222;
 ```
+## CA
+![CA](image)
 
-## One Dark
-![One Dark](https://user-images.githubusercontent.com/806101/27455546-826b3d88-5752-11e7-8a6b-87285b90eb3e.png)
-```
---primary: #61AFEF;
---text: #ABB2BF;
---background: #282C34;
---background-elevated: #3B4048;
-```
-
-## Low Contrast
-![Low Contrast](https://cloud.githubusercontent.com/assets/7691630/24120352/4ccdedf2-0d82-11e7-8ff7-c88e48b8e917.png)
-```
---primary: #CCC;
---text: #999;
---background: #222;
---background-elevated: #444;
-```
-
-## Navy
-![Navy](https://cloud.githubusercontent.com/assets/7691630/24120353/4cd08c4c-0d82-11e7-851a-4c62340456ad.png)
-```
---primary: #FFF;
---text: #CCC;
---background: #225;
---background-elevated: #114;
-```
-
-## Hot Dog Stand
-![Hot Dog Stand](https://cloud.githubusercontent.com/assets/7691630/24120351/4cca6182-0d82-11e7-8de8-7ab99dcde042.png)
-```
---primary: #000;
---text: #FFF;
---background: #F00;
---background-elevated: #FF0;
-```
 
 ## Coloring people/channel/conversations
 
