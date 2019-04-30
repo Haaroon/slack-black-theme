@@ -106,16 +106,9 @@ NB: You'll have to do this every time Slack updates.
 
 Here's some example color variations you might like.
 
-## Default
-![Default](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
-```
---primary: #09F;
---text: #CCC;
---background: #080808;
---background-elevated: #222;
-```
 ## CA
-![CA](image)
+
+No image sorry
 
 
 ## Coloring people/channel/conversations
