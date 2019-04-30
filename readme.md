@@ -91,7 +91,8 @@ document.addEventListener("DOMContentLoaded", function() {
             })
       });
    });
-});```
+});
+```
 
 Notice that you can edit any of the theme colors using the custom CSS (for
 the already-custom theme.) Also, you can put any CSS URL you want here,
