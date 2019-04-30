@@ -2,10 +2,6 @@
 
 A darker, more contrasty, Slack theme.
 
-# Preview
-
-![Screenshot](https://cloud.githubusercontent.com/assets/7691630/24120350/4cbb643e-0d82-11e7-8353-5d4eb65dfd6a.png)
-
 # Installing into Slack
 
 Find your Slack's application directory.
